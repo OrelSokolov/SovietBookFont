@@ -1,0 +1,115 @@
+<head>
+    <link rel="stylesheet" href="SovietBookFont.css">
+    <title>SovietBook Font</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="descr">
+            <h1>Шрифт SovietBook</h1>
+            <p class="description">
+                Всем знакомый шрифт из старых советских книг, который
+                было очень приятно читать на бумаге!
+            </p>
+            <p>
+                <a href="https://raw.githubusercontent.com/OrelSokolov/SovietBookFont/master/SovietBookFont.css" class="download">⬇ Скачать CSS</a>
+                <a href="https://raw.githubusercontent.com/OrelSokolov/SovietBookFont/master/SovietBookFont.css" class="download">⬇ Скачать WOFF</a>
+                <a href="https://github.com/OrelSokolov/SovietBookFont" class="download">Репозиторий на GitHub</a>
+            </p>
+        </div>
+
+        <div class="show">
+            <p class="font">
+                АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+                <br>
+                абвгдежзиклмнопрстуфхцчшщъыьэюя
+            </p>
+
+            <p class="font">
+                <i>
+                    АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+                    <br>
+                    абвгдежзиклмнопрстуфхцчшщъыьэюя
+                </i>
+            </p>
+
+
+            <p class="font">
+                ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                <br>
+                abcdefghijklmnopqrstuvwxyz
+            </p>
+
+            <p class="font">
+                <i>
+                    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                    <br>
+                    abcdefghijklmnopqrstuvwxyz
+                </i>
+            </p>
+
+            <p class="font">
+                01234567890
+                <br>
+                <i>
+                    01234567890
+                </i>
+            </p>
+
+        </div>
+    </div>
+
+
+    <style>
+        h1, h2 {
+            font-family: Arial;
+            font-weight: normal !important;
+        }
+
+        .first-letter {
+            font-size: 50px;
+            padding-left: 20px;
+        }
+
+        .font {
+            font-family: "SovietBook";
+            font-size: 40px;
+        }
+
+        .wrapper {
+            margin: 5% 10%;
+            background: white;
+            display: grid;
+            grid-template-columns: auto auto;
+            box-shadow: 0 0 20px rgba(0,0,0,0.7);
+        }
+
+        .descr {
+            padding: 30px;
+            background: linear-gradient(270deg, rgba(166,150,122,1) 0%, rgba(227,201,160,1) 30px, rgba(247,228,197,1) 100%);
+        }
+
+        .show {
+            padding: 30px;
+            border-color: #50380d;
+            border-style: none none none solid;
+            border-width: 2px;
+            background: linear-gradient(90deg, rgba(166,150,122,1) 0%, rgba(227,201,160,1) 30px, rgba(247,228,197,1) 100%);
+        }
+
+        .description {
+            font-size: 20px;
+        }
+
+        .download {
+            border: solid thin black;
+            border-radius: 5px;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            background: #ececec;
+        }
+    </style>
+</body>
